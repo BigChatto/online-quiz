@@ -11,3 +11,27 @@
 body {
     color: white;
 }
+
+.logo {
+    font-size: 32px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+
+.navbar a,
+.logo {
+    background-color: green;
+    color: #fff;
+}
