@@ -1,49 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <main id="main">
-      <header class="header">
-        <a href class="logo"> Online Quiz </a>
-        <nav class="navbar">
-          <a href="#">Home</a>
-      </header>
-      <div class="container">
-        <div id="quiz-part">
-            <div id="quiz-questions"></div>
+        <header class="header">
+            <a href class="logo"> Online Quiz </a>
+            <nav class="navbar">
+                <a href="#">Home</a>
+        </header>
+        <div class="container">
+            <div id="quiz-part">
+                <div id="quiz-questions">
+                    <h1>Start Quiz</h1>
+                    <div id="quiz-header">
+                        <h2>Quiz Website</h2>
+                        <span class="header-score">Score: 0 / 20</span>
+
+                    </div>
+                    <h2 class="question">Who was the first President of the United States?</h2>
+                    <div id="option-sections">
+                        <div id="option">
+                            <p> a. George Washington</p>
+                        </div>
+                        <div id="option">
+                            <p> b. William Shakesphare </p>
+                        </div>
+                        <div id="option">
+                            <p> c. Nile River</p>
+                        </div>
+                        <div id="option">
+                            <p> d. Leonardo da Vincin</p>
+                        </div>
+                    </div>
+                    <div id="quiz-section-footer">
+                        <h3 id="total-questions">1 of 20</h3>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Website</h1>
+                    <p>
+                        Welcome to our quiz website, your ultimate destination for
+                        challenging and engaging quizzes that cater to a wide range of
+                        interests and knowledge levels. Whether you're a history buff, a pop
+                        culture enthusiast, a science lover, or just someone looking for
+                        some fun and brain-teasing questions, we have something for
+                        everyone.
+                    </p>
+                    <button id="start-btn">Start Quiz</button>
+                </div>
+            </section>
         </div>
-      
-      <section class="home">
-        <div class="home-content">
-          <h1>Quiz Website</h1>
-          <p>
-            Welcome to our quiz website, your ultimate destination for
-            challenging and engaging quizzes that cater to a wide range of
-            interests and knowledge levels. Whether you're a history buff, a pop
-            culture enthusiast, a science lover, or just someone looking for
-            some fun and brain-teasing questions, we have something for
-            everyone.
-          </p>
-          <button id="start-btn">Start Quiz</button>
-        </div>
-      </section>
-    </div>
     </main>
     <div id="pop-up">
         <h2>Quiz Guide</h2>
         <ol>
-        <li class="info">1. Ipsum Lorem Ipsum Lorem Ipsum </li>
-        <li class="info">2. Ipsum Lorem Ipsum Lorem Ipsum </li>
-        <li class="info">3. Ipsum Lorem Ipsum Lorem Ipsum </li>
-        <li class="info">4. Ipsum Lorem Ipsum Lorem Ipsum </li>
-        <li class="info">5. Ipsum Lorem Ipsum Lorem Ipsum </li>
+
+            <li class="info"> 1. Answer questions based on the given format (multiple-choice, true/false,
+                fill-in-the-blank). </li>
+
+            <li class="info"> 2. You have 20 minutes to complete the quiz; the timer starts with the first question.
+            </li>
+
+            <li class="info"> 3. Questions are in random order for each participant.</li>
+
+            <li class="info"> 4. Submit your answers when done. For printed copies, hand them in.</li>
+
+            <li class="info"> 5. Get your score, correct answers, and explanations after submission.</li>
+
+            <li class="info"> 6. Share your results using #TriviaChallenge if you'd like.</li>
+
+            <li class="info"> Have fun and good luck!</li>
+
         </ol>
         <div class="btn">
             <button class="info-btn exit-btn">Exit Quiz</button>
@@ -53,5 +93,6 @@
     </div>
 
     <script src="./assets/js/script.js"></script>
-  </body>
+</body>
+
 </html>
