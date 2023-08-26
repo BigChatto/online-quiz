@@ -23,5 +23,19 @@ continueBtn.onclick = () => {
     popUp.classList.remove("active");
     main.classList.remove("active");
     quizQuestions.classList.add("active");
+    showQuestions(0);
 
 };
+
+let questionCount = 0;
+const nextBtn = document.querySelector(".next-btn");
+nextBtn.onclick = () => {
+    questionCount++;
+    showQuestions(questionCount);
+};
+
+function showQuestions(index) {
+    const questionContent = document.querySelector(".question-content");
+    questionContent.textContent = `${questions[index].num}. ${questions[index].question}`;
+}
+
