@@ -1,9 +1,9 @@
 let questions = [
     {
-        num: 1,
+        id: 1,
         question: "Who was the first President of the United States?",
         ans: "a. George Washington",
-        options: ["a.George Washington", "b. Bill Clinton", "c. Barack Obama", "d. Joe Biden"]
+        options: ["a. George Washington", "b. Bill Clinton", "c. Barack Obama", "d. Joe Biden"]
     },
 
     {

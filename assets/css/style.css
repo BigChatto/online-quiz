@@ -155,6 +155,21 @@ body {
     border-color: rgba(255, 255, 255, .1);
 }
 
+#option-sections #option.correct {
+    background: transparent;
+    color: #14e214;
+    border-color: #14e214;
+
+}
+
+#option-sections #option.wrong {
+    background: transparent;
+    color: #c40094;
+    border-color: #c40094;
+
+}
+
+
 #quiz-section-footer {
     display: flex;
     justify-content: space-between;
