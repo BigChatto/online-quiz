@@ -195,9 +195,16 @@ body {
     height: 45px;
     cursor: pointer;
     background: #8f137042;
-    /* pointer-events: none;*/
+    pointer-events: none;
     transition: .5s;
     color: #ffffffa6;
+}
+
+#quiz-section-footer .next-btn.active {
+    pointer-events: auto;
+    background-color: #8f1370;
+    border: #8f1370;
+    color: white;
 }
 
 #quiz-section-footer .next-btn:hover {
@@ -205,6 +212,8 @@ body {
     border-color: #8f1370;
 
 }
+
+
 
 
 .home {

@@ -28,14 +28,27 @@ continueBtn.onclick = () => {
     main.classList.remove("active");
     quizQuestions.classList.add("active");
     showQuestions(0);
+    questionCounter(1);
 
 };
 
 let questionCount = 0;
+let questionNumber = 1;
+let userScore = 0;
+
+
 const nextBtn = document.querySelector(".next-btn");
 nextBtn.onclick = () => {
-    questionCount++;
-    showQuestions(questionCount);
+    if (questionCount < questions.length - 1) {
+        questionCount++;
+        showQuestions(questionCount);
+        questionNumber++;
+        questionCounter(questionNumber);
+        nextBtn.classList.remove("active");
+    } else {
+        alert("question completed");
+    }
+
 };
 
 
@@ -61,19 +74,37 @@ function selectedOption(ans) {
     let userAnswer = ans.textContent;
     let correctAnswer = questions[questionCount].ans;
     let allOptions = optionSections.children.length;
+
     if (userAnswer === correctAnswer) {
         ans.classList.add("correct");
+        userScore += 1;
+        headerScore();
 
     } else {
         ans.classList.add("wrong");
+        for (let i = 0; i < allOptions; i++) {
+            if (optionSections.children[i].textContent === correctAnswer) {
+                optionSections.children[i].setAttribute("class", "option correct");
+            }
+        }
+
+
+    }
+    for (let i = 0; i < allOptions; i++) {
+        optionSections.children[i].style.pointerEvents = "none";
+
     }
 
-    for (let i = 0; i < allOptions; i++) {
-        if (optionSections.children[i].textContent === correctAnswer) {
-            optionSections.children[i].setAttribute("class", "option correct");
-        }
-    }
+    nextBtn.classList.add("active");
 
 }
 
+function questionCounter(index) {
+    const totalQuestion = document.getElementById("total-questions");
+    totalQuestion.textContent = `${index} of ${questions.length} questions`;
+}
 
+function headerScore() {
+    const headerScoretext = document.querySelector(".header-score");
+    headerScoretext.textContent = `score: ${userScore} / ${questions.length}`;
+};

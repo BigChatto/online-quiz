@@ -10,7 +10,7 @@ let questions = [
         id: 2,
         question: "What is the chemical symbol for the element gold?",
         ans: "d. Au",
-        options: ["a.Bc", "b.Ad", "c.Da", "d.Au"]
+        options: ["a. Bc", "b. Ad", "c. Da", "d. Au"]
     },
 
     {
@@ -24,14 +24,14 @@ let questions = [
         id: 4,
         question: "Who wrote the play 'Romeo and Juliet'?",
         ans: "d. William Shakespeare",
-        options: ["a.Joel Coen", "b.Terry Gilliam", "c.William Goldman", "d.William Shakespeare"]
+        options: ["a. Joel Coen", "b. Terry Gilliam", "c. William Goldman", "d. William Shakespeare"]
     },
 
     {
         id: 5,
         question: "In what year did World War I begin?",
         ans: "b. 1914",
-        options: ["a. 1912", "b. 1914", "c. 1918", "d. 1812"]
+        options: ["a. 1912", "b. 1914", "c.1918", "d. 1812"]
     },
 
     {
