@@ -213,7 +213,94 @@ body {
 
 }
 
+#quiz-part #result-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.9);
+    width: 500px;
+    background: transparent;
+    padding: 20px;
+    border: 2px solid #8f1370;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
 
+}
+
+#quiz-part #result-section.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+#result-section h2 {
+    font-size: 50px;
+}
+
+#result-section #percentage-section {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px;
+    align-items: center;
+
+}
+
+#percentage-section #progress {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+#percentage-section #progress:before {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background: #09001d;
+
+}
+
+#progress .progress-value {
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+#percentage-section .score-text {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+
+.buttons button {
+    width: 130px;
+    height: 47px;
+    background: #8f1370;
+    border: 2px solid #8f1370;
+    outline: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 20px 20px;
+    cursor: pointer;
+    transition: .5rem;
+
+}
 
 
 .home {

@@ -8,6 +8,8 @@ const quizQuestions = document.getElementById("quiz-questions");
 
 const optionSections = document.getElementById("option-sections");
 
+const resultSection = document.getElementById("result-section");
+
 
 
 startBtn.onclick = () => {
@@ -46,7 +48,7 @@ nextBtn.onclick = () => {
         questionCounter(questionNumber);
         nextBtn.classList.remove("active");
     } else {
-        alert("question completed");
+        showResult();
     }
 
 };
@@ -108,3 +110,9 @@ function headerScore() {
     const headerScoretext = document.querySelector(".header-score");
     headerScoretext.textContent = `score: ${userScore} / ${questions.length}`;
 };
+
+function showResult() {
+    quizQuestions.classList.remove("active");
+    resultSection.classList.add("active");
+
+}
