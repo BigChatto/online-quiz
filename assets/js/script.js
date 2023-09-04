@@ -10,7 +10,9 @@ const optionSections = document.getElementById("option-sections");
 
 const resultSection = document.getElementById("result-section");
 
+const retryBtn = document.querySelector(".retry-btn");
 
+const backHomeBtn = document.querySelector(".back-home-btn");
 
 startBtn.onclick = () => {
     popUp.classList.add("active");
@@ -32,6 +34,30 @@ continueBtn.onclick = () => {
     showQuestions(0);
     questionCounter(1);
 
+};
+
+retryBtn.onclick = () => {
+    quizQuestions.classList.add("active");
+    nextBtn.classList.remove("active");
+    resultSection.classList.remove("active");
+    questionCount = 0;
+    questionNumber = 1;
+    userScore = 0;
+    showQuestions(questionCount);
+    questionCounter(questionNumber);
+    headerScore();
+};
+
+backHomeBtn.onclick = () => {
+    quizPart.classList.remove("active");
+    nextBtn.classList.remove("active");
+    resultSection.classList.remove("active");
+    questionCount = 0;
+    questionNumber = 1;
+    userScore = 0;
+    showQuestions(questionCount);
+    questionCounter(questionNumber);
+    headerScore();
 };
 
 let questionCount = 0;
@@ -115,4 +141,9 @@ function showResult() {
     quizQuestions.classList.remove("active");
     resultSection.classList.add("active");
 
+    const scoreText = document.querySelector(".score");
+    scoreText.textContent = `You scored ${userScore} out of ${questions.length}`;
 }
+;
+
+
