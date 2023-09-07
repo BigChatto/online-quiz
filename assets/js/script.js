@@ -1,3 +1,4 @@
+// Getting DOM elements
 const startBtn = document.getElementById("start-btn");
 const popUp = document.getElementById("pop-up");
 const exitBtn = document.querySelector(".exit-btn");
@@ -13,20 +14,23 @@ const resultSection = document.getElementById("result-section");
 const retryBtn = document.querySelector(".retry-btn");
 
 const backHomeBtn = document.querySelector(".back-home-btn");
-
+// Event listeners for buttons
 startBtn.onclick = () => {
+    // Show pop-up and main content when "Start Quiz" is clicked
     popUp.classList.add("active");
     main.classList.add("active");
 
 };
 
 exitBtn.onclick = () => {
+    // Close pop-up and main content when "Exit" is clicked
     popUp.classList.remove("active");
     main.classList.remove("active");
 
 };
 
 continueBtn.onclick = () => {
+    // Show quiz questions when "Continue Quiz" is clicked
     quizPart.classList.add("active");
     popUp.classList.remove("active");
     main.classList.remove("active");
@@ -37,6 +41,7 @@ continueBtn.onclick = () => {
 };
 
 retryBtn.onclick = () => {
+    // Restart the quiz when "Retry" is clicked
     quizQuestions.classList.add("active");
     nextBtn.classList.remove("active");
     resultSection.classList.remove("active");
@@ -49,6 +54,7 @@ retryBtn.onclick = () => {
 };
 
 backHomeBtn.onclick = () => {
+    // Return to the home screen when "Back to Home" is clicked
     quizPart.classList.remove("active");
     nextBtn.classList.remove("active");
     resultSection.classList.remove("active");
@@ -60,11 +66,12 @@ backHomeBtn.onclick = () => {
     headerScore();
 };
 
+// Initialize variables for quiz tracking
 let questionCount = 0;
 let questionNumber = 1;
 let userScore = 0;
 
-
+// Event listener for the "Next" button
 const nextBtn = document.querySelector(".next-btn");
 nextBtn.onclick = () => {
     if (questionCount < questions.length - 1) {
@@ -80,6 +87,7 @@ nextBtn.onclick = () => {
 };
 
 
+// Function to display quiz questions
 function showQuestions(index) {
     const questionContent = document.querySelector(".question-content");
     questionContent.textContent = `${questions[index].id}. ${questions[index].question}`;
@@ -98,6 +106,7 @@ function showQuestions(index) {
 }
 
 
+// Function to handle user-selected option
 function selectedOption(ans) {
     let userAnswer = ans.textContent;
     let correctAnswer = questions[questionCount].ans;
@@ -127,16 +136,19 @@ function selectedOption(ans) {
 
 }
 
+// Function to update the question counter
 function questionCounter(index) {
     const totalQuestion = document.getElementById("total-questions");
     totalQuestion.textContent = `${index} of ${questions.length} questions`;
 }
 
+// Function to update the header score
 function headerScore() {
     const headerScoretext = document.querySelector(".header-score");
     headerScoretext.textContent = `score: ${userScore} / ${questions.length}`;
 };
 
+// Function to display the quiz result
 function showResult() {
     quizQuestions.classList.remove("active");
     resultSection.classList.add("active");
