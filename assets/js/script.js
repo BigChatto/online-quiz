@@ -13,12 +13,25 @@ const resultSection = document.getElementById("result-section");
 
 const retryBtn = document.querySelector(".retry-btn");
 
+const quitBtn = document.querySelector(".quit-btn");
+
+const welcome = document.querySelector(".welcome");
+
 const backHomeBtn = document.querySelector(".back-home-btn");
 // Event listeners for buttons
 startBtn.onclick = () => {
     // Show pop-up and main content when "Start Quiz" is clicked
-    popUp.classList.add("active");
     main.classList.add("active");
+    if (username.value) {
+        const username = document.getElementById("username").value;
+        popUp.classList.add("active");
+        welcome.textContent = `Welcome, ${username}`;
+    } else {
+        alert("Please enter your username");
+        main.classList.remove("active");
+    }
+
+
 
 };
 
@@ -39,6 +52,21 @@ continueBtn.onclick = () => {
     questionCounter(1);
 
 };
+
+quitBtn.onclick = () => {
+    if (confirm("Are you sure you want to exit?")) {
+        quizPart.classList.remove("active");
+        nextBtn.classList.remove("active");
+        resultSection.classList.remove("active");
+        questionCount = 0;
+        questionNumber = 1;
+        userScore = 0;
+        showQuestions(questionCount);
+        questionCounter(questionNumber);
+        headerScore();
+    }
+};
+
 
 retryBtn.onclick = () => {
     // Restart the quiz when "Retry" is clicked

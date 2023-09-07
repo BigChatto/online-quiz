@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <!-- Metadata for character encoding, compatibility, and responsive design -->
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- Link to external CSS file -->
-<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -25,28 +25,29 @@
                     <h1>Start Quiz</h1>
                     <div id="quiz-header">
                         <h2>Quiz Website</h2>
-                        <span class="header-score">Score: 0 / 20</span>
+                        <span class="header-score">Score: 0 / 10</span>
 
                     </div>
                     <!-- Quiz Question -->
                     <h2 class="question-content">Who was the first President of the United States?</h2>
                     <div id="option-sections">
 
-                    <!-- Options for the quiz question -->
+                        <!-- Options for the quiz question -->
                     </div>
 
                     <div id="quiz-section-footer">
-                        <h3 id="total-questions">1 of 20</h3>
+                        <h3 id="total-questions">1 of 10</h3>
+                        <button class="quit-btn">Quit</button>
                         <button class="next-btn">Next</button>
                     </div>
                 </div>
                 <!-- Quiz Result Section -->
                 <div id="result-section">
                     <h2>Quiz Result</h2>
-                     <div id="percentage-section">
-                    <!-- Display quiz score -->
-                        <span class="score">You scored 0 out of 20</span>
-                    </div> 
+                    <div id="percentage-section">
+                        <!-- Display quiz score -->
+                        <span class="score">You scored 0 out of 10</span>
+                    </div>
 
                     <div class="buttons">
                         <button class="retry-btn">Retry</button>
@@ -60,18 +61,32 @@
                     <h1>Quiz Website</h1>
                     <p>
                         <!-- Description of the quiz website -->
-                        "Welcome to our quiz website, where you'll find engaging quizzes for all interests and knowledge levels.
-                        Explore a wide range of topics, from history and science to sport and more, as you challenge your knowledge and
+                        "Welcome to our quiz website, where you'll find engaging quizzes for all interests and knowledge
+                        levels.
+                        Explore a wide range of topics, from history and science to sport and more, as you challenge
+                        your knowledge and
                         have fun."
                     </p>
+                    <form id="login-form">
+                        <div>
+                            <label>
+                                Username: 
+                            </label>
+                            <input type="text" name="username" id="username">
+                        </div>
+                    </form>
                     <button id="start-btn">Start Quiz</button>
                 </div>
             </section>
         </div>
+        <footer>
+            <p>© 2023 Dominic Chatto</p>
+            <p>All rights reserved</p>
+        </footer>
     </main>
     <!-- Pop-up with Quiz Guide -->
     <div id="pop-up">
-        <h2>Quiz Guide</h2>
+        <h2 class="welcome">Welcome</h2>
         <ol>
             <!-- Instructions for participants -->
             <li class="info"> 1. Answer questions based on the given format (multiple-choice). </li>
@@ -81,10 +96,11 @@
             <li class="info"> 3. Your score is displayed in the top right corner of the quiz page.</li>
 
             <li class="info"> 4. Get your score, correct answers after selection.</li>
-            
-            <li class="info">5. Correct answers will be displayed in green, while incorrect answers will be shown in red.</li>
+
+            <li class="info">5. Correct answers will be displayed in green, while incorrect answers will be shown in
+                red.</li>
             <li class="info"> Have fun and good luck!</li>
-        
+
         </ol>
         <div class="btn">
             <!-- Buttons for quiz guide -->
@@ -93,7 +109,7 @@
 
         </div>
     </div>
-     <!-- JavaScript linked below -->
+    <!-- JavaScript linked below -->
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/questions.js"></script>
 </body>

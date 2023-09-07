@@ -2,22 +2,22 @@
 # Quiz Website README
 
 ## Table of Contents
-  #quiz-website-readme
-  #table-of-contents
-  #introduction
-  #features
-  #existing-features
-  #the-next-button
-  #“Start,” “Exit,” and “Continue Quiz” Button
-  #start-exit-and-continue-quiz-button
-  #testing
-  #validator-testing
-  #known-bugs
-  #deployment
-  #design
-  #technologies-used
-   #credits
-  #license
+  - `Quiz-website-readme`
+  - `Table-of-contents`
+  - `Introduction`
+  - `Features`
+  - `Existing-features`
+  - `The-next-button`
+  - `“Start,” “Exit,” and “Continue Quiz” Button`
+  - `Start-exit-and-continue-quiz-button`
+  - `Testing`
+  - `Validator-testing`
+  - `Known-bugs`
+  - `Deployment`
+  - `Design`
+  - `Technologies-used`
+  - `Credits`
+  - `License`
 
 ## Introduction
 
