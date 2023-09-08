@@ -1,0 +1,44 @@
+/* Max-width 768px hides the overflow on the body to prevent horizontal scrolling. Hides the navigation links in the navbar. Sets a minimum height for the main content to ensure it fits within the viewport. */
+@media screen and (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    #main {
+        overflow-x: hidden;
+        min-height: 50vh;
+    }
+}
+
+/* Max-width 480px continues to hide navigation links for responsive design. Adjusts the .home section to fill the entire viewport height. Reduces the font size of h1 within the .home section. Shifts the #quiz-part element further to the left for smaller screens. Adjusts padding and width for #quiz-part #quiz-questions for better display on smaller screens. */
+
+@media screen and (max-width: 480px) {
+    .navbar a {
+        display: none;
+    }
+
+    #main {
+        overflow-x: hidden;
+    }
+
+    .home {
+        height: 100vh;
+    }
+
+    .home h1 {
+        font-size: 50px;
+    }
+
+    #quiz-part {
+        left: -55%;
+    }
+
+    #quiz-part #quiz-questions {
+        padding: 1rem 2rem;
+        width: 400px;
+    }
+}

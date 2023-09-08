@@ -31,8 +31,6 @@ startBtn.onclick = () => {
         main.classList.remove("active");
     }
 
-
-
 };
 
 exitBtn.onclick = () => {
@@ -49,6 +47,13 @@ continueBtn.onclick = () => {
     main.classList.remove("active");
     quizQuestions.classList.add("active");
     showQuestions(0);
+    questionCounter(1);
+
+    //from this line of code.
+    const randomQuestion = getRandomQuestion();
+
+    // Display the random question
+    showRandomQuestion(randomQuestion);
     questionCounter(1);
 
 };
@@ -186,4 +191,26 @@ function showResult() {
 }
 ;
 
+//From this line of code.
+// Function to display a random question
+function showRandomQuestion(question) {
+    const questionContent = document.querySelector(".question-content");
+    questionContent.textContent = `${question.id}. ${question.question}`;
 
+    let optionTag = "";
+    for (let i = 0; i < question.options.length; i++) {
+        optionTag += `<div id="option">${question.options[i]}</div>`;
+    }
+
+    optionSections.innerHTML = optionTag;
+
+    const option = document.querySelectorAll("#option");
+    for (let k = 0; k < option.length; k++) {
+        option[k].setAttribute("onclick", "selectedOption(this)");
+    }
+}
+// Function to get a random question
+function getRandomQuestion() {
+    const randomIndex = Math.floor(Math.random() * questions.length);
+    return questions[randomIndex];
+}
