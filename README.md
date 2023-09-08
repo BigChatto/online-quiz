@@ -1,5 +1,5 @@
 
-# Quiz Website README
+# Quiz Website README Home screen
 The quiz is built with ten questions, with each question showing four answers, where only one answer is correct. The quiz aims to educate and test your knowledge.
 file:///workspaces/online-quiz/images/Quiz-Home-screen.png
 
@@ -11,7 +11,6 @@ file:///workspaces/online-quiz/images/Quiz-Home-screen.png
   - `Existing-features`
   - `The-next-button`
   - `“Start,” “Exit,” and “Continue Quiz” Button`
-  -`Start-exit-and-continue-quiz-button`
   - `Testing`
   - `Validator-testing`
   - `Known-bugs`
@@ -33,6 +32,8 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Feedback on correct and incorrect answers.
 - Responsive design for different devices.
 - Easy navigation between sections.
+file:///workspaces/online-quiz/images/Question-1-quiz.png  file:///workspaces/online-quiz/images/Question-2-quiz.png  file:///workspaces/online-quiz/images/Question-3-quiz.png
+file:///workspaces/online-quiz/images/Score-Count-quiz.png
 
 ## Existing Features
 
@@ -43,6 +44,9 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Immediate feedback on correct and incorrect answers.
 - A results section displaying the user's final score.
 - A pop-up with a quick guide for users.
+  file:///workspaces/online-quiz/images/create-username-button.png
+file:///workspaces/online-quiz/images/Welcome-message-username%20%2011.37.55.png
+file:///workspaces/online-quiz/images/Quiz-result.png
 
 ## The Username Button
 
@@ -56,7 +60,13 @@ The "Next" button is a crucial feature for navigating through quiz questions. It
 ## “Start,” “Exit,” and “Continue Quiz” Button
 
 - **Start Quiz:** Initiates the quiz, presenting the first question.
+ file:///workspaces/online-quiz/images/Start-quiz-screen.png
 - **Exit Quiz:** Allows users to exit the quiz and return to the home page.
+*Confirmation Prompt
+
+When you click the "Exit Quiz" button, a confirmation prompt will appear. It will ask, "Are you sure you want to quit?" You can choose to either click "Cancel" to stay in the quiz or "OK" to exit and return to the home screen.
+file:///workspaces/online-quiz/images/Exit-quiz-button.png
+
 - **Continue Quiz:** Enables users to resume the quiz after exiting or viewing the pop-up guide.
 file:///workspaces/online-quiz/images/Exit%20%26%20Continue-Button.png
 
@@ -69,7 +79,6 @@ Identify Incorrect Answers
 When you select an incorrect answer in our quizzes, it will be displayed in red. This visual cue helps you identify and learn from your mistakes, enhancing your knowledge and quiz performance.
 
 file:///workspaces/online-quiz/images/Correct-answer-green-color.png  file:///workspaces/online-quiz/images/Incorrect-answer-red-color.png
-
 
 
 ## Testing
