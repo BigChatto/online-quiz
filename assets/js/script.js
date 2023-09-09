@@ -190,7 +190,7 @@ function showResult() {
     scoreText.textContent = `You scored ${userScore} out of ${questions.length}`;
 };
 
-/*
+
 //From this line of code.
 // Function to display a random question
 function showRandomQuestion(question) {
@@ -214,7 +214,7 @@ function showRandomQuestion(question) {
 function getRandomQuestion() {
     const randomIndex = Math.floor(Math.random() * questions.length);
     return questions[randomIndex];
-} */
+}
 
 
 
