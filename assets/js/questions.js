@@ -24,8 +24,8 @@ let questions = [
     {
         id: 4,
         question: "In what year did World War I begin?",
-        ans: "b. 1914",
-        options: ["a. 1912", "b. 1914", "c.1918", "d. 1812"]
+        ans: "c. 1914",
+        options: ["a. 1912", "b. 1918", "c. 1914", "d. 1812"]
     },
 
     {

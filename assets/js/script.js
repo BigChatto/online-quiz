@@ -188,9 +188,9 @@ function showResult() {
 
     const scoreText = document.querySelector(".score");
     scoreText.textContent = `You scored ${userScore} out of ${questions.length}`;
-}
-;
+};
 
+/*
 //From this line of code.
 // Function to display a random question
 function showRandomQuestion(question) {
@@ -209,8 +209,13 @@ function showRandomQuestion(question) {
         option[k].setAttribute("onclick", "selectedOption(this)");
     }
 }
+
 // Function to get a random question
 function getRandomQuestion() {
     const randomIndex = Math.floor(Math.random() * questions.length);
     return questions[randomIndex];
-}
+} */
+
+
+
+

@@ -1,24 +1,23 @@
-
 # Quiz Website README Home screen
 
 The quiz is built with ten questions, with each question showing four answers, where only one answer is correct. The quiz aims to educate and test your knowledge.
-![quiz-home](file:///workspaces/online-quiz/images/Quiz-Home-screen.png)
+![Quiz Home](https://raw.githubusercontent.com/your-username/your-repo/main/images/Quiz-Home-screen.png)
 
 ## Table of Contents
 
-  1. `Quiz-website-readme`
-  2. `Table-of-contents`
-  3. `Introduction`
-  4. `Features`
-  5. `Existing-features`
-  6. `The-next-button`
-  7. `“Start,” “Exit,” and “Continue Quiz” Button`
-  8. `Testing`
-  9. `Validator-testing`
-  10. `Deployment`
-  11. `Design`
-  12. `Technologies-used`
-  13. `Credits`
+1. `Quiz-website-readme`
+2. `Table-of-contents`
+3. `Introduction`
+4. `Features`
+5. `Existing-features`
+6. `The-next-button`
+7. `“Start,” “Exit,” and “Continue Quiz” Button`
+8. `Testing`
+9. `Validator-testing`
+10. `Deployment`
+11. `Design`
+12. `Technologies-used`
+13. `Credits`
 
 ## Introduction
 
@@ -32,8 +31,9 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Feedback on correct and incorrect answers.
 - Responsive design for different devices.
 - Easy navigation between sections.
-![question 1](file:///workspaces/online-quiz/images/!Question-1-quiz.png)  ![question 2](file:///workspaces/online-quiz/images/Question-2-quiz.png)  ![question 3](file:///workspaces/online-quiz/images/Question-3-quiz.png)
-![score count](file:///workspaces/online-quiz/images/Score-Count-quiz.png)
+  ![Question 1](https://raw.githubusercontent.com/your-username/your-repo/main/images/Question-1-quiz.png)
+  ![Question 2](https://raw.githubusercontent.com/your-username/your-repo/main/images/Question-2-quiz.png)
+  ![Question 3](https://raw.githubusercontent.com/your-username/your-repo/main/images/Question-3-quiz.png)
 
 ## Existing Features
 
@@ -44,36 +44,38 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Immediate feedback on correct and incorrect answers.
 - A results section displaying the user's final score.
 - A pop-up with a quick guide for users.
-  ![create username](file:///workspaces/online-quiz/images/create-username-button.png)
-![User welcome message](file:///workspaces/online-quiz/images/Welcome-message-username%20%2011.37.55.png)
-![quiz result](file:///workspaces/online-quiz/images/Quiz-result.png)
+- ![Score Count](https://raw.githubusercontent.com/your-username/your-repo/main/images/Score-Count-quiz.png)
+
+![Create Username Button](https://raw.githubusercontent.com/your-username/your-repo/main/images/create-username-button.png)
+
+![Quiz Result](https://raw.githubusercontent.com/your-username/your-repo/main/images/Quiz-result.png)
 
 ## The Username Button
 
 Usernames are usually required to be unique within the system to prevent two users from having the same identifier. This ensures that each user's data and progress are separate.
-![create username](file:///workspaces/online-quiz/images/create-username-button.png)
+![Create Username Button](https://github.com/your-username/your-repo/raw/main/images/create-username-button.png)
 
 ## The “Next” Button
 
 The "Next" button is a crucial feature for navigating through quiz questions. It allows users to progress through the quiz and provides feedback on their performance.
-![next button](file:///workspaces/online-quiz/images/Next-Button.png)
+![Next Button](https://github.com/your-username/your-repo/raw/main/images/Next-Button.png)
 
 ## “Start,” “Exit,” and “Continue Quiz” Button
 
 - **Start Quiz:** Initiates the quiz, presenting the first question.
- ![start quiz screen](file:///workspaces/online-quiz/images/Start-quiz-screen.png)
+  ![Start Quiz Screen](https://raw.githubusercontent.com/your-username/your-repo/main/images/Start-quiz-screen.png)
 
 - **Exit Quiz: & Continue Quiz:**
 
 If you decide to exit the quiz at any point, simply click the "Exit Quiz" button. This will close the quiz interface and return you to the home screen.
 
 - The exit allows users to exit the quiz and return to the home page. While the "Continue Quiz" enables users to resume the quiz after exiting or viewing the pop-up guide.
-![exit & continue button](file:///workspaces/online-quiz/images/Exit%20%26%20Continue-Button.png)
+  ![Exit & Continue Button](https://raw.githubusercontent.com/your-username/your-repo/main/images/Exit%20%26%20Continue-Button.png)
 
 ## Quit Button
 
 When you click the "Quit quiz" button, a "Confirmation Prompt" will appear. It will ask, "Are you sure you want to quit?" You can choose to either click "Cancel" to stay in the quiz or "OK" to exit and return to the home screen.
-![quit button](file:///workspaces/online-quiz/images/Quit-quiz-button.png)
+![Quit Button](https://raw.githubusercontent.com/your-username/your-repo/main/images/Quit-quiz-button.png)
 
 ## Correct & Incorrect Answers Displayed
 
@@ -83,7 +85,8 @@ Identify Incorrect Answers
 
 When you select an incorrect answer in our quizzes, it will be displayed in red. This visual cue helps you identify and learn from your mistakes, enhancing your knowledge and quiz performance.
 
-![Correct answer display](file:///workspaces/online-quiz/images/Correct-answer-green-color.png)  ![incorrect answer dislay](file:///workspaces/online-quiz/images/Incorrect-answer-red-color.png)
+![Correct Answer](https://raw.githubusercontent.com/your-username/your-repo/main/images/Correct-answer-green-color.png)
+![Incorrect Answer](https://raw.githubusercontent.com/your-username/your-repo/main/images/Incorrect-answer-red-color.png)
 
 ## Testing
 
