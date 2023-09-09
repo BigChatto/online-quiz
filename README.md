@@ -2,7 +2,7 @@
 # Quiz Website README Home screen
 
 The quiz is built with ten questions, with each question showing four answers, where only one answer is correct. The quiz aims to educate and test your knowledge.
-![Quiz Home](https://github.com/your-username/your-repo/raw/main/images/Quiz-Home-screen.png)
+![Quiz Home](https://raw.githubusercontent.com/your-username/your-repo/main/images/Quiz-Home-screen.png)
 
 ## Table of Contents
 
@@ -32,9 +32,10 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Feedback on correct and incorrect answers.
 - Responsive design for different devices.
 - Easy navigation between sections.
-![Question 1](https://github.com/your-username/your-repo/raw/main/images/Question-1-quiz.png)
-![Question 2](https://github.com/your-username/your-repo/raw/main/images/Question-2-quiz.png)
-![Question 3](https://github.com/your-username/your-repo/raw/main/images/Question-3-quiz.png)
+![Question 1](https://raw.githubusercontent.com/your-username/your-repo/main/images/Question-1-quiz.png)
+![Question 2](https://raw.githubusercontent.com/your-username/your-repo/main/images/Question-2-quiz.png)
+![Question 3](https://raw.githubusercontent.com/your-username/your-repo/main/images/Question-3-quiz.png)
+
 
 
 ## Existing Features
@@ -46,11 +47,12 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Immediate feedback on correct and incorrect answers.
 - A results section displaying the user's final score.
 - A pop-up with a quick guide for users.
- ![Score Count](https://github.com/your-username/your-repo/raw/main/images/Score-Count-quiz.png)
+- ![Score Count](https://raw.githubusercontent.com/your-username/your-repo/main/images/Score-Count-quiz.png)
 
-![Create Username Button](https://github.com/your-username/your-repo/raw/main/images/create-username-button.png)
+![Create Username Button](https://raw.githubusercontent.com/your-username/your-repo/main/images/create-username-button.png)
 
-![Quiz Result](https://github.com/your-username/your-repo/raw/main/images/Quiz-result.png)
+![Quiz Result](https://raw.githubusercontent.com/your-username/your-repo/main/images/Quiz-result.png)
+
 
 ## The Username Button
 
@@ -66,19 +68,20 @@ The "Next" button is a crucial feature for navigating through quiz questions. It
 ## “Start,” “Exit,” and “Continue Quiz” Button
 
 - **Start Quiz:** Initiates the quiz, presenting the first question.
- ![start quiz screen](file:///workspaces/online-quiz/images/Start-quiz-screen.png)
+![Start Quiz Screen](https://raw.githubusercontent.com/your-username/your-repo/main/images/Start-quiz-screen.png)
+
 
 - **Exit Quiz: & Continue Quiz:**
 
 If you decide to exit the quiz at any point, simply click the "Exit Quiz" button. This will close the quiz interface and return you to the home screen.
 
 - The exit allows users to exit the quiz and return to the home page. While the "Continue Quiz" enables users to resume the quiz after exiting or viewing the pop-up guide.
-![Exit & Continue Button](https://github.com/your-username/your-repo/raw/main/images/Exit%20%26%20Continue-Button.png)
+![Exit & Continue Button](https://raw.githubusercontent.com/your-username/your-repo/main/images/Exit%20%26%20Continue-Button.png)
 
 ## Quit Button
 
 When you click the "Quit quiz" button, a "Confirmation Prompt" will appear. It will ask, "Are you sure you want to quit?" You can choose to either click "Cancel" to stay in the quiz or "OK" to exit and return to the home screen.
-![Quit Button](https://github.com/your-username/your-repo/raw/main/images/Quit-quiz-button.png)
+![Quit Button](https://raw.githubusercontent.com/your-username/your-repo/main/images/Quit-quiz-button.png)
 
 
 ## Correct & Incorrect Answers Displayed
@@ -88,8 +91,9 @@ In our quizzes, correct answers are highlighted in green, making it easy to trac
 Identify Incorrect Answers
 
 When you select an incorrect answer in our quizzes, it will be displayed in red. This visual cue helps you identify and learn from your mistakes, enhancing your knowledge and quiz performance.
-![Correct Answer](https://github.com/your-username/your-repo/raw/main/images/Correct-answer-green-color.png)
-![Incorrect Answer](https://github.com/your-username/your-repo/raw/main/images/Incorrect-answer-red-color.png)
+
+![Correct Answer](https://raw.githubusercontent.com/your-username/your-repo/main/images/Correct-answer-green-color.png)
+![Incorrect Answer](https://raw.githubusercontent.com/your-username/your-repo/main/images/Incorrect-answer-red-color.png)
 
 ## Testing
 
