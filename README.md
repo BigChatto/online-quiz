@@ -34,6 +34,7 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Feedback on correct and incorrect answers.
 - Responsive design for different devices.
 - Easy navigation between sections.
+
   ![Question 1](./images/Question-1-quiz.png)
   ![Question 2](./images/Question-2-quiz.png)
   ![Question 3](./images/Question-3-quiz.png)
@@ -54,10 +55,8 @@ Welcome to the README of our Quiz Website project! This project is designed to p
   ![Score Count](./images/Score-Count-quiz.png)
   ![Quiz Result](./images/Quiz-result.png)
   ![Next Button](./images/Next-Button.png)
-  ![Question 1](./images/Question-1-quiz.png)
-
   ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)
-  ![Exit & Continue Button]![Quit Button](./images/Quit-quiz-button.png)
+  ![Quit Button](./images/Quit-quiz-button.png)
 
 ## The Username Button
 
@@ -69,6 +68,7 @@ Usernames are usually required to be unique within the system to prevent two use
 ## The “Next” Button
 
 The "Next" button is a crucial feature for navigating through quiz questions. It allows users to progress through the quiz and provides feedback on their performance.
+
 ![Next Button](./images/Next-Button.png)
 
 ## “Start,” “Exit,” and “Continue Quiz” Button
