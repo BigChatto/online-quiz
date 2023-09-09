@@ -41,8 +41,6 @@ Welcome to the README of our Quiz Website project! This project is designed to p
   ![Question 2](./images/Question-2-quiz.png)
   ![Question 3](./images/Question-3-quiz.png)
 
-> > > > > > > origin/main
-
 ## Existing Features
 
 - User-friendly interface with visually appealing design.
@@ -57,19 +55,11 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 ![Create Username Button](./images/create-username-button.png)
 
 ![Quiz Result](./images/Quiz-result.png)
-<<<<<<< HEAD
-=======
-
-> > > > > > > origin/main
 
 ## The Username Button
 
 Usernames are usually required to be unique within the system to prevent two users from having the same identifier. This ensures that each user's data and progress are separate.
 ![Create Username Button](./images/create-username-button.png)
-<<<<<<< HEAD
-=======
-
-> > > > > > > origin/main
 
 ## The “Next” Button
 
@@ -79,12 +69,10 @@ The "Next" button is a crucial feature for navigating through quiz questions. It
 ## “Start,” “Exit,” and “Continue Quiz” Button
 
 - **Start Quiz:** Initiates the quiz, presenting the first question.
-  <<<<<<< HEAD
-  ![Start Quiz Screen](./images/Start-quiz-screen.png)
-  =======
+
   ![Start Quiz Screen](./images/Start-quiz-screen.png)
 
-> > > > > > > origin/main
+  ![Start Quiz Screen](./images/Start-quiz-screen.png)
 
 - **Exit Quiz: & Continue Quiz:**
 
@@ -93,18 +81,13 @@ If you decide to exit the quiz at any point, simply click the "Exit Quiz" button
 - The exit allows users to exit the quiz and return to the home page. While the "Continue Quiz" enables users to resume the quiz after exiting or viewing the pop-up guide.
   <<<<<<< HEAD
   ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)
-  =======
+
   ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)
-  > > > > > > > origin/main
 
 ## Quit Button
 
 When you click the "Quit quiz" button, a "Confirmation Prompt" will appear. It will ask, "Are you sure you want to quit?" You can choose to either click "Cancel" to stay in the quiz or "OK" to exit and return to the home screen.
 ![Quit Button](./images/Quit-quiz-button.png)
-<<<<<<< HEAD
-=======
-
-> > > > > > > origin/main
 
 ## Correct & Incorrect Answers Displayed
 
