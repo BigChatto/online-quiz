@@ -2,7 +2,8 @@
 
 The quiz is built with ten questions, with each question showing four answers, where only one answer is correct. The quiz aims to educate and test your knowledge.
 
-![Quiz Home](./images/Quiz-Home-screen.png)![Question 1](./images/Question-1-quiz.png)
+![Quiz Home](./images/Quiz-Home-screen.png)
+![Question 1](./images/Question-1-quiz.png)
 
 ## Table of Contents
 
@@ -12,13 +13,14 @@ The quiz is built with ten questions, with each question showing four answers, w
 4. `Features`
 5. `Existing-features`
 6. `The-next-button`
-7. `“Start,” “Exit,” and “Continue Quiz” Button`
-8. `Testing`
-9. `Validator-testing`
-10. `Deployment`
-11. `Design`
-12. `Technologies-used`
-13. `Credits`
+7. `“Start,” “Exit,” and “Continue`
+8. `Quiz” Button`
+9. `Testing`
+10. `Validator-testing`
+11. `Deployment`
+12. `Design`
+13. `Technologies-used`
+14. `Credits`
 
 ## Introduction
 
@@ -32,7 +34,9 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Feedback on correct and incorrect answers.
 - Responsive design for different devices.
 - Easy navigation between sections.
-  ![Question 1](./images/Question-1-quiz.png)![Question 2](./images/Question-2-quiz.png)![Question 3](./images/Question-3-quiz.png)
+  ![Question 1](./images/Question-1-quiz.png)
+  ![Question 2](./images/Question-2-quiz.png)
+  ![Question 3](./images/Question-3-quiz.png)
 
 ## Existing Features
 
@@ -43,14 +47,24 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Immediate feedback on correct and incorrect answers.
 - A results section displaying the user's final score.
 - A pop-up with a quick guide for users.
-  ![Score Count](./images/Score-Count-quiz.png)![Create Username Button](./images/create-username-button.png)
-  ![Quiz Result](./images/Quiz-result.png)![Create Username Button](./images/create-username-button.png)![Next Button](./images/Next-Button.png)
-  ![Question 1](./images/Question-1-quiz.png)![Question 2](./images/Question-2-quiz.png)![Question 3](./images/Question-3-quiz.png)![Start Quiz Screen](./images/Start-quiz-screen.png)![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)![Exit & Continue Button]![Quit Button](./images/Quit-quiz-button.png)
+  ![Quiz Home](./images/Quiz-Home-screen.png)
+  ![Create Username Button](./images/create-username-button.png)
+  ![start quiz button](./images/start-quiz-button.png)
+  ![Start Quiz Screen](./images/Start-quiz-screen.png)
+  ![Score Count](./images/Score-Count-quiz.png)
+  ![Quiz Result](./images/Quiz-result.png)
+  ![Next Button](./images/Next-Button.png)
+  ![Question 1](./images/Question-1-quiz.png)
+
+  ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)
+  ![Exit & Continue Button]![Quit Button](./images/Quit-quiz-button.png)
 
 ## The Username Button
 
 Usernames are usually required to be unique within the system to prevent two users from having the same identifier. This ensures that each user's data and progress are separate.
 ![Create Username Button](./images/create-username-button.png)
+
+## Start
 
 ## The “Next” Button
 
@@ -61,14 +75,16 @@ The "Next" button is a crucial feature for navigating through quiz questions. It
 
 - **Start Quiz:** Initiates the quiz, presenting the first question.
 
-  ![Start Quiz Screen](./images/Start-quiz-screen.png)
+![start quiz button](./images/start-quiz-button.png)
+![Start Quiz Screen](./images/Start-quiz-screen.png)
 
 - **Exit Quiz: & Continue Quiz:**
 
 If you decide to exit the quiz at any point, simply click the "Exit Quiz" button. This will close the quiz interface and return you to the home screen.
 
 - The exit allows users to exit the quiz and return to the home page. While the "Continue Quiz" enables users to resume the quiz after exiting or viewing the pop-up guide.
-  ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)![Exit & Continue Button]
+  ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)
+  ![Exit & Continue Button]
 
 ## Quit Button
 
@@ -138,7 +154,7 @@ CODE:
   Dominic Chatto: Lead developer, design, and content.
   Rahul : Mentor.
   Leanecodes from github: I Got some inspiration from her project.
-  Thank you to all contributors and resources that made this project possible.
+  Thank you to the tutors at "Code Institute", all contributors and resources that made this project possible.
 
 ## Expanded README
 
