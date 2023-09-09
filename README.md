@@ -2,7 +2,7 @@
 
 The quiz is built with ten questions, with each question showing four answers, where only one answer is correct. The quiz aims to educate and test your knowledge.
 
-![Quiz Home](./images/Quiz-Home-screen.png)
+![Quiz Home](./images/Quiz-Home-screen.png)![Question 1](./images/Question-1-quiz.png)
 
 ## Table of Contents
 
@@ -32,14 +32,7 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Feedback on correct and incorrect answers.
 - Responsive design for different devices.
 - Easy navigation between sections.
-  <<<<<<< HEAD
-  ![Question 1](./images/Question-1-quiz.png)
-  ![Question 2](./images/Question-2-quiz.png)
-  ![Question 3](./images/Question-3-quiz.png)
-  =======
-  ![Question 1](./images/Question-1-quiz.png)
-  ![Question 2](./images/Question-2-quiz.png)
-  ![Question 3](./images/Question-3-quiz.png)
+  ![Question 1](./images/Question-1-quiz.png)![Question 2](./images/Question-2-quiz.png)![Question 3](./images/Question-3-quiz.png)
 
 ## Existing Features
 
@@ -50,11 +43,9 @@ Welcome to the README of our Quiz Website project! This project is designed to p
 - Immediate feedback on correct and incorrect answers.
 - A results section displaying the user's final score.
 - A pop-up with a quick guide for users.
-- ![Score Count](./images/Score-Count-quiz.png)
-
-![Create Username Button](./images/create-username-button.png)
-
-![Quiz Result](./images/Quiz-result.png)
+  ![Score Count](./images/Score-Count-quiz.png)![Create Username Button](./images/create-username-button.png)
+  ![Quiz Result](./images/Quiz-result.png)![Create Username Button](./images/create-username-button.png)![Next Button](./images/Next-Button.png)
+  ![Question 1](./images/Question-1-quiz.png)![Question 2](./images/Question-2-quiz.png)![Question 3](./images/Question-3-quiz.png)![Start Quiz Screen](./images/Start-quiz-screen.png)![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)![Exit & Continue Button]![Quit Button](./images/Quit-quiz-button.png)
 
 ## The Username Button
 
@@ -72,17 +63,12 @@ The "Next" button is a crucial feature for navigating through quiz questions. It
 
   ![Start Quiz Screen](./images/Start-quiz-screen.png)
 
-  ![Start Quiz Screen](./images/Start-quiz-screen.png)
-
 - **Exit Quiz: & Continue Quiz:**
 
 If you decide to exit the quiz at any point, simply click the "Exit Quiz" button. This will close the quiz interface and return you to the home screen.
 
 - The exit allows users to exit the quiz and return to the home page. While the "Continue Quiz" enables users to resume the quiz after exiting or viewing the pop-up guide.
-  <<<<<<< HEAD
-  ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)
-
-  ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)
+  ![Exit & Continue Button](./images/Exit%20%26%20Continue-Button.png)![Exit & Continue Button]
 
 ## Quit Button
 
@@ -91,14 +77,15 @@ When you click the "Quit quiz" button, a "Confirmation Prompt" will appear. It w
 
 ## Correct & Incorrect Answers Displayed
 
+Identify "Correct" Answers
+
 In our quizzes, correct answers are highlighted in green, making it easy to track your progress. If your answer matches the correct one, you'll see it in green, helping you learn as you go.
 
-Identify Incorrect Answers
+Identify "Incorrect" Answers
 
 When you select an incorrect answer in our quizzes, it will be displayed in red. This visual cue helps you identify and learn from your mistakes, enhancing your knowledge and quiz performance.
 
-![Correct Answer](./images/Correct-answer-green-color.png)
-![Incorrect Answer](./images/Incorrect-answer-red-color.png)
+![Correct Answer](./images/Correct-answer-green-color.png)![Incorrect Answer](./images/Incorrect-answer-red-color.png)
 
 ## Testing
 
